@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>巫 一人回し</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <img class="app-logo" src="./card/logo/logo.png" alt="巫ロゴ" />
+      <label class="view-select-wrap">
+        <select id="view-select">
+          <option value="deck" selected>デッキ一覧</option>
+          <option value="play">盤面</option>
+        </select>
+      </label>
+    </header>
+
+    <main class="app-main">
+      <section id="tab-deck" class="tab-panel is-active">
+        <div class="builder-layout">
+          <aside class="side-nav">
+            <h3>デッキ読み込み</h3>
+            <p>巫カードフィルターで作った共有コードを使用</p>
+            <div class="side-nav-list">
+              <div class="side-nav-item is-active">共有コード適用</div>
+              <div class="side-nav-item">デッキ確認</div>
+            </div>
+            <div class="deck-actions side-actions">
+              <p>合計: <strong id="deck-total">0</strong> 枚</p>
+              <button id="clear-deck-button" class="danger">デッキをクリア</button>
+            </div>
+          </aside>
+
+          <div class="builder-content">
+            <div class="panel-header">
+              <h2>共有デッキコードを適用</h2>
+              <p>巫カードフィルターで発行したコードを貼り付けてください</p>
+            </div>
+
+            <div class="box">
+              <div class="deck-import">
+                <h4>共有コード</h4>
+                <textarea id="deck-code-input" rows="3" placeholder="例: 5|e7b7d15d2f|AQMBAwEDAQMBAwQD"></textarea>
+                <button id="deck-code-apply-button" type="button">コードを適用</button>
+              </div>
+              <div class="deck-import">
+                <h4>適用中デッキ</h4>
+                <p class="hint">コード適用後、盤面タブでそのまま一人回しできます</p>
+                <div id="deck-list" class="deck-list"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tab-play" class="tab-panel">
+        <div class="playmat simple-playmat">
+          <div id="field-zone" class="field-zone">
+            <div id="deck-zone" class="deck-zone">
+              <div id="deck-stack" class="deck-stack">
+                <span id="draw-pile-count" class="deck-count">0</span>
+              </div>
+            </div>
+          </div>
+          <div id="hand-zone" class="hand-zone hand-overlay"></div>
+        </div>
+      </section>
+    </main>
+
+    <div id="card-preview-modal" class="card-preview-modal" aria-hidden="true">
+      <div id="card-preview-overlay" class="card-preview-overlay"></div>
+      <div class="card-preview-dialog" role="dialog" aria-modal="true" aria-label="カード詳細">
+        <button id="card-preview-close" class="card-preview-close" type="button" aria-label="閉じる">×</button>
+        <img id="card-preview-image" class="card-preview-image" src="" alt="カード画像" />
+        <div class="card-preview-meta">
+          <p id="card-preview-number"></p>
+          <h3 id="card-preview-name"></h3>
+          <p id="card-preview-type"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

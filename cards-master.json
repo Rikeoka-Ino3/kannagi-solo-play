@@ -1,0 +1,5095 @@
+{
+  "generatedAt": "2026-02-20T08:40:56.963369+00:00",
+  "source": "https://hanil524.github.io/kannagi-cardlist/cards.js",
+  "count": 848,
+  "cards": [
+    {
+      "number": "1",
+      "name": "隠された櫛の家（かくされたくしのいえ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2",
+      "name": "霊気漂う橿木集落（れいきただようかしのきしゅうらく）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "3",
+      "name": "神隠しの廃集落（かみかくしのはいしゅうらく）夏",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "4",
+      "name": "発狂人形の家（はっきょうにんぎょうのいえ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "5",
+      "name": "怨まれた別荘（うらまれたべっそう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "6",
+      "name": "腐乱別荘（ふらんべっそう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "7",
+      "name": "放棄された怪奇現象の家（ほうきされたかいきげんしょうのいえ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "8",
+      "name": "獣喰らいの廃旅館（けものぐらいのはいりょかん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "9",
+      "name": "荒れ果てた幻想病院（あれはてたげんそうびょういん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10",
+      "name": "炎河荘（えんかそう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "11",
+      "name": "受刑者のアジト（じゅけいしゃのあじと）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "12",
+      "name": "辿り着けない神社（たどりつけないじんじゃ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "13",
+      "name": "病ねずみ（やまいねずみ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "14",
+      "name": "蠢く黒い影（うごめくくろいかげ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "15",
+      "name": "変異した蚯蚓（へんいしたみみず）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "16",
+      "name": "巫の幽霊（かんなぎのゆうれい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "17",
+      "name": "狐面の神（こめんのかみ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "18",
+      "name": "死を告げる黒蝶（しをつげるこくちょう）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "19",
+      "name": "草刈り鎌（くさかりがま）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "20",
+      "name": "ランタン（らんたん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "21",
+      "name": "呪いの藁人形（のろいのわらにんぎょう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "22",
+      "name": "発狂する日本人形（はっきょうするにほんにんぎょう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "23",
+      "name": "真夏の夜（まなつのよ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "24",
+      "name": "漆黒の建造物（しっこくのけんぞうぶつ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "25",
+      "name": "暗予劇場（あんよげきじょう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "26",
+      "name": "神隠しの廃集落（かみかくしのはいしゅうらく）冬",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "27",
+      "name": "血液の貯蔵庫（けつえきのちょぞうこ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "28",
+      "name": "東洋の廃洋館（とうようのはいようかん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "29",
+      "name": "朧車（おぼろぐるま）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "30",
+      "name": "異界監禁施設（いかいかんきんしせつ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "31",
+      "name": "夜霧の幻宿（よむのげんしゅく）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "32",
+      "name": "豪幻堂（ごうげんどう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "33",
+      "name": "鬼人村（きじんむら）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "34",
+      "name": "豪血の廃病院（ごうけつのはいびょういん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "35",
+      "name": "鬼ヶ淵（おにがぶち）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "36",
+      "name": "未完の石材（みかんのせきざい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "37",
+      "name": "雲外鏡（うんがいきょう）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "38",
+      "name": "霊安室の鏡（れいあんしつのかがみ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "39",
+      "name": "鬼面の神（きめんのかみ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "40",
+      "name": "鬼門（きもん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "41",
+      "name": "血液達磨（けつえきだるま）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "42",
+      "name": "血を吸ったマフラー(ちをすったまふらー)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "43",
+      "name": "野営（やえい）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "44",
+      "name": "蘇り藁人形（よみがえりわらにんぎょう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "45",
+      "name": "人魚の活き血（にんぎょのいきち）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "46",
+      "name": "凍てつく時間（いてつくじかん）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "47",
+      "name": "身投げ岬（みなげみさき）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "48",
+      "name": "燃ゆる茸（もゆるだけ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "49",
+      "name": "悪習の古記（あくしゅうのこき）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "50",
+      "name": "散華淵（さんげぶち）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "51",
+      "name": "大蛇（だいじゃ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "52",
+      "name": "悠習の古日記（ゆうしゅうのこにっき）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "53",
+      "name": "れもんちゃん",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "101",
+      "name": "体探しの園（からださがしのその）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "102",
+      "name": "神隠しの廃集落（かみかくしのはいしゅうらく）春",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "103",
+      "name": "光の指す方へ（ひかりのさすほうへ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "104",
+      "name": "吸血妃の栖（きゅうけつきのすみか）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "105",
+      "name": "終わらない夢(おわらないゆめ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "106",
+      "name": "菴捻銀山（あんねんぎんざん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "107",
+      "name": "殺生岩（せっしょうがん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "108",
+      "name": "あのころのおもいで",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "109",
+      "name": "瘴気の壁（しょうきのかべ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "110",
+      "name": "黒妖の犬族（こくようのけんぞく）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "111",
+      "name": "怒りの反撃（いかりのはんげき）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "112",
+      "name": "肥川の大蛇（ひのかわのおろち）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "113",
+      "name": "うさぎの死骸（うさぎのしがい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "114",
+      "name": "猿真似（さるまね）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "115",
+      "name": "骨女（ほねおんな）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "116",
+      "name": "竹林の白蛇（ちくりんのしろへび）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "117",
+      "name": "底無し穴の幽霊（そこなしあなのゆうれい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "118",
+      "name": "屈折する万華鏡（くっせつするまんげきょう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "119",
+      "name": "威嚇（いかく）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "120",
+      "name": "お守り藁人形（おまもりわらにんぎょう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "121",
+      "name": "生き人形（いきにんぎょう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "122",
+      "name": "蛇霓の橋（じゃげいのはし）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "123",
+      "name": "かかし",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "124",
+      "name": "くねくね",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "125",
+      "name": "キジムナー（きじむなー）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "126",
+      "name": "殺人村（さつじんむら）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "127",
+      "name": "影残る廃屋（かげのこるはいおく）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "128",
+      "name": "妊婦絵(にんぷえ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "129",
+      "name": "苦痛の日々（くつうのひび）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "130",
+      "name": "霊能力者の家（れいのうりょくしゃのいえ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "131",
+      "name": "死臭の家（ししゅうのいえ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "132",
+      "name": "食肉村（しょくにくむら）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "133",
+      "name": "盟友の守護龍：赤竜（めいゆうのしゅごりゅう せきりゅう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "134",
+      "name": "大女の祟り（おおおんなのたたり）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "135",
+      "name": "神隠し（かみかくし）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "136",
+      "name": "感染（かんせん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "137",
+      "name": "交配海老（こうはいえび）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "138",
+      "name": "蝗害（こうがい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "139",
+      "name": "屍肉と交わる蜚蠊（しにくとまじわるごきかぶり）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "140",
+      "name": "背赤（せあか）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "141",
+      "name": "狐女（きつねめ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "142",
+      "name": "伝染する不吉（でんせんするふきつ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "143",
+      "name": "萬倉（よろずぐら）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "144",
+      "name": "蚊柱（かばしら）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "145",
+      "name": "動き出す人体模型（うごきだすじんたいもけい）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "146",
+      "name": "宵闇の焔（よいやみのほむら）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "147",
+      "name": "童霊堂跡（どうりょうどうあと）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "148",
+      "name": "神隠しの廃集落（かみかくしのはいしゅうらく）秋",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "149",
+      "name": "終わらない葬儀場（おわらないそうぎじょう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "150",
+      "name": "魔の急カーブ（まのきゅうかーぶ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "151",
+      "name": "座敷童（ざしきわらし）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "152",
+      "name": "霊園前電話ボックス（れいえんまえでんわぼっくす）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "153",
+      "name": "右足のない幽霊（みぎあしのないゆうれい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "154",
+      "name": "自業自得（じごうじとく）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "155",
+      "name": "古椿の霊（ふるつばきのれい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "156",
+      "name": "しがみつくモノ（しがみつくもの）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "157",
+      "name": "よく動く時計（よくうごくとけい）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "158",
+      "name": "人毛の藁人形（じんもうのわらにんぎょう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "159",
+      "name": "コトリバコ（ことりばこ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "160",
+      "name": "自然分解（しぜんぶんかい）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "161",
+      "name": "朝焼け（あさやけ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "162",
+      "name": "空虚の廃旅館（くうきょのはいりょかん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "163",
+      "name": "深雪に包まれた洞窟（しんせつにつつまれたどうくつ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "164",
+      "name": "きさらぎ駅（きさらぎえき）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "165",
+      "name": "青い鳥（あおいとり）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "166",
+      "name": "抹亞鉱山（まつあこうざん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "167",
+      "name": "非常口（ひじょうぐち）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "168",
+      "name": "闇賭博居住群（やみとばくきょじゅうぐん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "169",
+      "name": "高速バス（こうそくばす）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "170",
+      "name": "沈黙する病院（ちんもくするびょういん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "171",
+      "name": "女王城（くいんじょう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "172",
+      "name": "豪雪に埋もれた博物館（ごうせつにうもれたはくぶつかん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "173",
+      "name": "狛侍（はくじ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "174",
+      "name": "予言（よげん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "175",
+      "name": "三番目の花子さん（さんばんめのはなこさん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "176",
+      "name": "土眼（つちめ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "177",
+      "name": "人間で造った出音機（にんげんでつくったしゅつおんき）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "178",
+      "name": "緊縛の鎖（きんばくのくさり）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "179",
+      "name": "焼き付くカメラ（やきつくかめら）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "180",
+      "name": "音無き白（おとなきしろ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "181",
+      "name": "叫び出す無音（さけびだすむおん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "182",
+      "name": "罪状（ざいじょう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "183",
+      "name": "祈りの繕い人形（いのりのつくろいにんぎょう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "184",
+      "name": "祈りの巫女人形(いのりのみこにんぎょう)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "185",
+      "name": "始まり始まり（はじまりはじまり）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "186",
+      "name": "濡れ女子（ぬれおなご）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "187",
+      "name": "土豪の案内人（どごうのあんないにん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "188",
+      "name": "贈り物（おくりもの）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "189",
+      "name": "紅姫（べにひめ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "190",
+      "name": "神隠しの廃集落（かみかくしのはいしゅうらく）夏",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "201",
+      "name": "海坊主（うみぼうず）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "202",
+      "name": "猫屋敷の廃墟（ねこやしきのはいきょ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "203",
+      "name": "開花する災能（かいかするさいのう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "204",
+      "name": "首つりの木（くびつりのき）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "205",
+      "name": "かべかべ",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "206",
+      "name": "玉藻前（たまものまえ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "207",
+      "name": "牛鬼の怒号（ぎゅうきのどごう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "208",
+      "name": "陰摩羅鬼（いんもらき）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "209",
+      "name": "沼御前（ぬまごぜん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "210",
+      "name": "鵺（ぬえ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "211",
+      "name": "てけてけ",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "212",
+      "name": "黒犬の調教師（こっけんのちょうきょうし）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "213",
+      "name": "飛び回る眷属（とびまわるけんぞく）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "214",
+      "name": "猫又（ねこまた）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "215",
+      "name": "だいだらぼっち",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "216",
+      "name": "伝説の料理人：殺助（でんせつのりょうりにん ころすけ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "217",
+      "name": "夜泣き蕎麦（よなきそば）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "218",
+      "name": "蛇行剣(だこうけん)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "219",
+      "name": "料理人の傑作（りょうりにんのけっさく）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "220",
+      "name": "火車の春休み（かしゃのはるやすみ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "221",
+      "name": "次に期待（つぎにきたい）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "222",
+      "name": "河童池（かっぱいけ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "223",
+      "name": "オレンジハウス（おれんじはうす）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "224",
+      "name": "オオカチコチ（おおかちこち）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "225",
+      "name": "三番目のトイレ（さんばんめのといれ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "226",
+      "name": "人形神社（にんぎょうじんじゃ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "227",
+      "name": "病鼠巣喰う廃宿（びょうそすくうはいしゅく）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "228",
+      "name": "猫魈（ねこしょう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "229",
+      "name": "帰りたくない家（かえりたくないいえ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "230",
+      "name": "大百足の巓（おおむかでのいただき）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "231",
+      "name": "歪んだ愛情（ゆがんだあいじょう）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "232",
+      "name": "腐女子（くされおなご）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "233",
+      "name": "実験体（じっけんたい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "234",
+      "name": "呪いの人形師（のろいのにんぎょうし）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "235",
+      "name": "わたしのTO（わたしのとっぷおた トップオタ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "236",
+      "name": "絡新婦（じょろうぐも）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "237",
+      "name": "八尺様（はっしゃくさま）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "238",
+      "name": "誘拐（ゆうかい）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "239",
+      "name": "媒介する病原体（ばいかいするびょうげんたい）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "240",
+      "name": "ねずみ地獄（ねずみじごく）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "241",
+      "name": "煙天夏の鉄蟻（えんてんかのてつぎ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "242",
+      "name": "夜中の繁華街（よなかのはんかがい）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "243",
+      "name": "朧帷子（おぼろかたびた）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "244",
+      "name": "寝室の枕返し（しんしつのまくらがえし）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "245",
+      "name": "羅生門（らしょうもん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "246",
+      "name": "造養の火葬場（ぞうようのかそうば）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "247",
+      "name": "おにごっこ",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "248",
+      "name": "あの世への乗り口（あのよへののりぐち）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "249",
+      "name": "死んでも許さない(しんでもゆるさない)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "250",
+      "name": "八翁城（はちおうじょう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "251",
+      "name": "エンジン停止（えんじんていし）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "252",
+      "name": "フラッシュバック（ふらっしゅばっく）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "253",
+      "name": "樹木子（じゅぼっこ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "254",
+      "name": "覇王樹（はおうじゅ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "255",
+      "name": "狼鳴隧道（ろうめいずいどう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "256",
+      "name": "ひきこさん",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "257",
+      "name": "犬面人（けんめんじん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "258",
+      "name": "あかなめ",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "259",
+      "name": "ろくろ首（ろくろくび）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "260",
+      "name": "運気喰らいの生霊（うんきくらいのいきりょう）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "261",
+      "name": "鴉天狗（からすてんぐ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "262",
+      "name": "えんらえんら",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "263",
+      "name": "首吊〆縄（くびつりしめなわ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "264",
+      "name": "黴傘お化け（かびかさおばけ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "265",
+      "name": "私に付きまとう男（わたしにつきまとうおとこ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "266",
+      "name": "老人展覧会（ろうじんてんらんかい）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "267",
+      "name": "お化けマンション(おばけまんしょん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "268",
+      "name": "輪入道（わにゅうどう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "269",
+      "name": "受胎告知の家（じゅたいこくちのいえ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "270",
+      "name": "もくれん",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "271",
+      "name": "悪魔ノ城（でびるじょう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "272",
+      "name": "こそこそ岩（こそこそいわ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "273",
+      "name": "口裂け女（くちさけおんな）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "274",
+      "name": "雪男（ゆきおとこ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "275",
+      "name": "餓鬼（がき）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "276",
+      "name": "鬼面の神子（きめんのかみご）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "277",
+      "name": "雪女（ゆきおんな）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "278",
+      "name": "酒呑童子（しゅてんどうじ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "279",
+      "name": "化提灯（ばけちょうちん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "280",
+      "name": "のっぺらぼう",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "281",
+      "name": "まふゆのだんらん",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "282",
+      "name": "本物のお化け屋敷（ほんもののおばけやしき）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "283",
+      "name": "お墓参り（おはかまいり）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "284",
+      "name": "アラハバキ（あらはばき）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "285",
+      "name": "火の玉（ひのたま）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "286",
+      "name": "がしゃどくろ",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "287",
+      "name": "かごめかごめ",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "288",
+      "name": "全部私が独りで（ぜんぶわたしがひとりで）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "289",
+      "name": "絶望の姦姦陀螺（ぜつぼうのかんかんだら）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "290",
+      "name": "芽吹く無秩序（めぶくむちつじょ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "291",
+      "name": "百鬼夜行（ひゃっきやこう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "292",
+      "name": "未完の石材（みかんのせきざい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1003",
+      "name": "夏夜の天使様（なつよのてんしさま）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1005",
+      "name": "まふゆの手術室（まふゆのしゅじゅつしつ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1101",
+      "name": "犬族の里（けんぞくのさと）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1102",
+      "name": "ねこやま",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1103",
+      "name": "おいかけっこ",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1104",
+      "name": "なんでにげるの",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1105",
+      "name": "くまぼん",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1106",
+      "name": "晩春を告る犬神（ばんしゅんをつげるいぬがみ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1107",
+      "name": "まだ捨てられない（まだすてられない）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1108",
+      "name": "魔女ノ城（うぃっちじょう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1109",
+      "name": "夜の鳥（よるのとり）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1110",
+      "name": "あなたのよこで",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1111",
+      "name": "人間椅子（にんげんいす）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1112",
+      "name": "傷秋鳥兜（しょうしょうとりかぶと）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1201",
+      "name": "春のれもんちゃん（はるのれもんちゃん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1202",
+      "name": "夏のれもんちゃん（なつのれもんちゃん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1203",
+      "name": "秋のれもんちゃん（あきのれもんちゃん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1204",
+      "name": "冬のれもんちゃん（ふゆのれもんちゃん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1205",
+      "name": "いちごちゃん",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1206",
+      "name": "すいかちゃん",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1207",
+      "name": "かきちゃん",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1208",
+      "name": "みかんさん",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1209",
+      "name": "お花畑のれもんちゃん（おはなばたけのれもんちゃん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1210",
+      "name": "磯のれもんちゃん（いそのれもんちゃん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1211",
+      "name": "よく食べるれもんちゃん（よくたべるれもんちゃん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1212",
+      "name": "お化けはっけん（おばけはっけん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1213",
+      "name": "場所のれもんちゃん（ばしょのれもんちゃん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1214",
+      "name": "怪異のれもんちゃん（かいいのれもんちゃん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1215",
+      "name": "季節のれもんちゃん（きせつのれもんちゃん）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1216",
+      "name": "道具のれもんちゃん（どうぐのれもんちゃん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1217",
+      "name": "わんちゃんかわいい",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1218",
+      "name": "エビ来た！（えびきた！）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1219",
+      "name": "とけいこわい",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1220",
+      "name": "あたたかいだす",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1301",
+      "name": "螺旋階段の悪夢（らせんかいだんのあくむ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1302",
+      "name": "竜宮城（りゅうぐうじょう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1303",
+      "name": "怪異の旅館受付（かいいのりょかんうけつけ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1304",
+      "name": "暗黒沼（あんこくぬま）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1305",
+      "name": "荒れ果てた訓練場（あれはてたくんれんじょう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1306",
+      "name": "繰り返す漉餡（くりかえすこしあん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1307",
+      "name": "カードピア（かーどぴあ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1308",
+      "name": "道化の上水（どうけのじょうすい）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1309",
+      "name": "2F娘さんの部屋（にえふむすめさんのへや）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1310",
+      "name": "大災害（だいさいがい）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1311",
+      "name": "カモの３姉妹（かものさんしまい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1312",
+      "name": "目にぃうさぎ（めにぃうさぎ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1313",
+      "name": "鎌いたち（かまいたち）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1314",
+      "name": "鳥人間（とりにんげん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1315",
+      "name": "パナウェイブ（ぱなうぇいぶ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1316",
+      "name": "作戦会議（さくせんかいぎ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1317",
+      "name": "いっしょにあそぼ・・・",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1318",
+      "name": "小熊猫（れっさーぱんだ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1319",
+      "name": "すねこすり",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1320",
+      "name": "幸せの福子さん（しあわせのふくこさん）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1321",
+      "name": "お迎え（おむかえ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1322",
+      "name": "細手長手（ほそてながて）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1323",
+      "name": "朝蜘蛛の逸話（あさくものいつわ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1324",
+      "name": "さっちゃんはね",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1325",
+      "name": "梅林のその中で（ばいりんのそのなかで）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1326",
+      "name": "首転坂（くびころざか）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1327",
+      "name": "病死体発見の家（びょうしたいはっけんのいえ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1328",
+      "name": "妖怪行脚（ようかいあんぎゃ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1329",
+      "name": "Dホテル 赤い傘（でぃーほてる あかいかさ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1330",
+      "name": "川辺の金髪少女（かわべのきんぱつしょうじょ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1331",
+      "name": "水冥（すいめい）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1332",
+      "name": "だから言ったのに（だからいったのに）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1333",
+      "name": "失敗した兄ちゃん（しっぱいしたにいちゃん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1334",
+      "name": "虫取り網（むしとりあみ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1335",
+      "name": "血飢えの小刀（ちうえのこがたな）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1336",
+      "name": "『アレ』ガ居ル場所（あれがいるばしょ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1337",
+      "name": "火炎旋風（かえんせんぷう）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1338",
+      "name": "鬼哭線 獄門坂駅（きこくせん ごくもんざかえき）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1339",
+      "name": "開店準備（かいてんじゅんび）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1340",
+      "name": "竪坑櫓（たてこうやぐら）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1341",
+      "name": "二人だけで話そう（ふたりだけではなそう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1342",
+      "name": "消さなきゃ（けさなきゃ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1343",
+      "name": "嗤う城（わらうしろ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1344",
+      "name": "散楽小屋一座（さんがくごやいちざ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1345",
+      "name": "古の毛羽毛現（いにしえのけうけげん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1346",
+      "name": "天への道(てんへのみち)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1347",
+      "name": "UFOライン（ゆーふぉーらいん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1348",
+      "name": "赤富士（あかふじ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1349",
+      "name": "鳴ル神（なるかみ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1350",
+      "name": "検問（けんもん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1351",
+      "name": "首なし地蔵（くびなしじぞう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1352",
+      "name": "火除地酒（ひよけちしゅ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1353",
+      "name": "欲張りな商人（よくばりなしょうにん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1354",
+      "name": "憎悪の狭間（ぞうおのはざま）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1355",
+      "name": "監視する病室（かんしするびょうしつ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1356",
+      "name": "スキマの視線（すきまのしせん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1357",
+      "name": "耳無し芳一（みみなしほういち）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1358",
+      "name": "魂の保管場所（たましいのほかんばしょ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1359",
+      "name": "あなただけがいない場所（あなただけがいないばしょ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1360",
+      "name": "パパ活（ぱぱかつ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1361",
+      "name": "AGITO（あじと）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1362",
+      "name": "氷冥（ひょうめい）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1363",
+      "name": "イエスタデイ（いえすたでい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1364",
+      "name": "歩く二宮金治郎像（あるくにのみやきんじろうぞう）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1365",
+      "name": "迷子の迷子の子猫（まいごのまいごのこねこ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1366",
+      "name": "般若（はんにゃ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1367",
+      "name": "忍び寄る翁の手（しのびよるおきなのて）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1368",
+      "name": "御喋りな箱（おしゃべりなはこ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1369",
+      "name": "呪告の手引き（じゅこくのてびき）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1370",
+      "name": "巫の看板娘（かんなぎのかんばんむすめ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1371",
+      "name": "鉄の風（てつのかぜ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1372",
+      "name": "未確認飛行物体（みかくにんひこうぶったい）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1373",
+      "name": "あぎょうさん",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1374",
+      "name": "七人ミサキ（しちにんみさき）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1375",
+      "name": "無縁佛（むえんぼとけ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1376",
+      "name": "お家においでよ（おうちにおいでよ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1377",
+      "name": "ベビーキョンシー！（べびーきょんしー！）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1378",
+      "name": "むちゅーなけむり",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1379",
+      "name": "来来（らいらい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1380",
+      "name": "解体作業車（かいたいさぎょうしゃ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1381",
+      "name": "罪咎（ざいきゅう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1382",
+      "name": "お願いごと（おねがいごと）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1383",
+      "name": "誰かが生きた証（だれかがいきたあかし）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1384",
+      "name": "隠蔽（いんぺい）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1385",
+      "name": "ありがとう、またね。",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1386",
+      "name": "五色沼オンネトー（ごしょくぬまおんねとー）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1387",
+      "name": "見えざるものが見えたもの（みえざるものがみえたもの）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1388",
+      "name": "雪溶け（ゆきどけ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1389",
+      "name": "赤津川（あかつがわ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1390",
+      "name": "半修羅 生成(はんしゅら なまなり)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1401",
+      "name": "散らぬ桜（ちらぬさくら）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1402",
+      "name": "家庭科室の暴君（かいてかしつのぼうくん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1403",
+      "name": "一番目の花子さん（いちばんめのはなこさん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1404",
+      "name": "四番目の花子さん（よんばんめのはなこさん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1405",
+      "name": "残飯小僧（ざんぱんこぞう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1406",
+      "name": "溶けた飼育委員（とけたしいくいいん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1407",
+      "name": "生活指導（せいかつしどう）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1408",
+      "name": "ミイラ先生（みいらせんせい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1409",
+      "name": "二番目の花子さん（にばんめのはなこさん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1410",
+      "name": "踊り場の大鏡（おどりばのおおかがみ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1411",
+      "name": "ヤバいクラス（やばいくらす）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1412",
+      "name": "オカルト研究部（おかるとけんきゅうぶ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1413",
+      "name": "赤い紙、青い紙（あかいかみ、あおいかみ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1414",
+      "name": "睨む肖像画（にらむしょうぞうが）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1415",
+      "name": "副流煙（ふくりゅうえん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1416",
+      "name": "収穫祭（しゅうかくさい）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1417",
+      "name": "視力の糸（しりょくのいと）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1418",
+      "name": "無限階段（むげんかいだん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1419",
+      "name": "深夜の放送部員（しんやのほうそうぶいん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1420",
+      "name": "生臭い模型（なまぐさいもけい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1421",
+      "name": "絵の具になった友達（えのぐになったともだち）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1422",
+      "name": "旋律の犠牲者（せんりつのぎせいしゃ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1423",
+      "name": "旧校舎（きゅうこうしゃ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1424",
+      "name": "混化した生徒（こんかしたせいと）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1425",
+      "name": "混化した校舎（こんかしたこうしゃ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1426",
+      "name": "燃ゆる茸（もゆるだけ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1427",
+      "name": "底無し穴の幽霊（そこなしあなのゆうれい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1428",
+      "name": "大女の祟り（おおおんなのたたり）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1429",
+      "name": "人毛の藁人形（じんもうのわらにんぎょう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1430",
+      "name": "三番目の花子さん（さんばんめのはなこさん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1501",
+      "name": "山梨：花魁淵（やまなし：おいらんぶち）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1502",
+      "name": "大分：湯布院マンション（おおいた：ゆふいんまんしょん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1503",
+      "name": "鳥取：プレイランド（とっとり：ぷれいらんど）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1504",
+      "name": "福井：深谷霊園（ふくい：ふかやれいえん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1505",
+      "name": "岡山：ラ・レインボー（おかやま：ら・れいんぼー）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1506",
+      "name": "石川：牛首隧道（いしかわ：うしくびずいどう）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1507",
+      "name": "滋賀：死骸の森（しが：しがいのもり）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1508",
+      "name": "熊本：金峰山（くまもと：きんぽうざん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1509",
+      "name": "山形：滝不動（やまがた：たきふどう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1510",
+      "name": "静岡：樹海（しずおか：じゅかい）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1511",
+      "name": "沖縄：大山貝塚（おきなわ：だいさんかいづか ※おおやまかいづか）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1512",
+      "name": "山口：7つの家（やまぐち：ななつのいえ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1513",
+      "name": "群馬：金比羅橋（ぐんま：かねひらばし）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1514",
+      "name": "佐賀：いのちゃん山荘（さが：いのちゃんさんそう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1515",
+      "name": "愛媛：死入道峠（えひめ：しにゅうどうとうげ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1516",
+      "name": "三重：女鬼隧道（みえ：めきずいどう）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1517",
+      "name": "埼玉：岳集落（さいたま：たけしゅうらく）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1518",
+      "name": "長野：人肉館（ながの：じんにくかん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1519",
+      "name": "茨城：小川脳病院（いばらき：おがわのうびょういん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1520",
+      "name": "新潟：ホワイトハウス（にいがた：ほわいとはうす）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1521",
+      "name": "徳島：童学寺隧道（とくしま：どうがくじずいどう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1522",
+      "name": "島根：深谷大橋（しまね：ふかやおおはし）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1523",
+      "name": "富山：坪ノ鉱泉（とやま：つぼのこうせん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1524",
+      "name": "高知：皇帝（こうち：こうてい）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1525",
+      "name": "岩手：松終鉱山（いわて：まつおこうざん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1526",
+      "name": "鹿児島：ぺこちゃん（かごしま：ぺこちゃん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1527",
+      "name": "香川：喝破道場（かがわ：かっぱどうじょう）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1528",
+      "name": "福島：幽霊ペンション（ふくしま：ゆうれいぺんしょん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1529",
+      "name": "岐阜：UUC喫茶（ぎふ：ゆーゆーしーきっさ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1530",
+      "name": "千葉：活魚（ちば：かつぎょ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1531",
+      "name": "青森：恐山（あおもり：おそれやま）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1532",
+      "name": "秋田：鹿男プリンスホテル（あきた：がおぷりんすほてる）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1533",
+      "name": "広島：魔女の館（ひろしま：まじょのやかた）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1534",
+      "name": "兵庫：魔夜観光ホテル（ひょうご：まやかんこうほてる）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1535",
+      "name": "栃木：野木病院（とちぎ：のぎびょういん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1536",
+      "name": "和歌山：ブラックビル（わかやま：ぶらっくびる）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1537",
+      "name": "京都：首塚大明神（きょうと：くびづかだいみょうじん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1538",
+      "name": "宮崎：紘田病院（みやざき：こうだびょういん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1539",
+      "name": "長崎：軍艦島（ながさき：ぐんかんじま）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1540",
+      "name": "奈良：白高大神（なら：はっこうおおかみ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1541",
+      "name": "東京：小峰トンネル（とうきょう：こみねとんねる）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1542",
+      "name": "宮城：化女沼ランド（みやぎ：けじょぬまらんど）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1543",
+      "name": "大阪：ほととぎす（おおさか：ほととぎす）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1544",
+      "name": "福岡：犬鳴隧道（ふくおか：けんめいずいどう）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1545",
+      "name": "愛知：千歳楼（あいち：ちとせろう）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1546",
+      "name": "神奈川：ジェイソン村（かながわ：じぇいそんむら）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1547",
+      "name": "北海道：円形校舎（ほっかいどう：えんけいこうしゃ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1601",
+      "name": "0831(おばんざい)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1602",
+      "name": "紹介された部屋（しょうかいされたへや）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1603",
+      "name": "さくらのせい",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1604",
+      "name": "白猫の恩知らず（しろねこのおんしらず）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1605",
+      "name": "海女の神様（あまのかみさま）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1606",
+      "name": "365×3（さんろくごかけるさん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1607",
+      "name": "黒き稲妻（くろきいなづま）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1608",
+      "name": "福島進一（ふくしましんいち）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1609",
+      "name": "新府城（しんぶじょう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1610",
+      "name": "月夜桜 すねこすり（つきよざくらすねこすり）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1611",
+      "name": "36524（さんろくごによん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1612",
+      "name": "猫屋敷の悪魔（ねこやしきのあくま）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1613",
+      "name": "コロポックル（ころぽっくる）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1614",
+      "name": "白い小熊猫（しろいれっさーぱんだ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1615",
+      "name": "枝垂れ桜の祟り（しだれさくらのたたり）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1616",
+      "name": "ターボババア（たーぼばばあ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1617",
+      "name": "赤津小の会談（あかづしょうのかいだん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1618",
+      "name": "はと",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1619",
+      "name": "鬼は外、福は内（おにはそとふくはうち）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1620",
+      "name": "一日千秋（いちじつせんしゅう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1621",
+      "name": "闇罪憑蕎麦（やみつきそば）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1622",
+      "name": "悪神の力：春（あしんのちから はる）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1623",
+      "name": "押入れのチャーリー人形（おしいれのちゃーりーにんぎょう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1624",
+      "name": "水際のカード屋さん（みずぎわのかーどやさん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1625",
+      "name": "廃墟の地下金庫（はいきょのちかきんこ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1626",
+      "name": "かちかち山（かちかちやま）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1627",
+      "name": "なないろ",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1628",
+      "name": "きのこ栽培79さい(きのこさいばいななじゅうきゅうさい)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1629",
+      "name": "そこにいた何か(そこにいたなにか)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1630",
+      "name": "黒猫の恩返し（くろねこのおんがえし）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1631",
+      "name": "天空龍：霊念熾天使（てんくうりゅう：あすとらるせらふぃーど）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1632",
+      "name": "霊能力者開発施設（れいのうりょくしゃかいはつしせつ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1633",
+      "name": "統率する猛火：超龍（とうそつするもうか：ちょうりゅう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1634",
+      "name": "頭の無い少女（あたまのないしょうじょ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1635",
+      "name": "鬼狩り（おにがり）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1636",
+      "name": "樹海の廃村（じゅかいのはいそん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1637",
+      "name": "すずめの道（すずめのみち）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1638",
+      "name": "封印の尻尾（ふういんのしっぽ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1639",
+      "name": "カードン（かーどん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1640",
+      "name": "人面魚（じんめんぎょ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1641",
+      "name": "牛の首（うしのくび）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1642",
+      "name": "齋藤友晴（さいとうともはる）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1643",
+      "name": "りさちゃん",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1644",
+      "name": "狐面の神子（こめんのかみご）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1645",
+      "name": "魔神仔の蟲宴（まじんこのちゅうえん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1646",
+      "name": "痣通洲架橋、星堕慧児(あざとおすらせん、せだけじ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1647",
+      "name": "金蜂の巣（きんばちのす）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1648",
+      "name": "迷い狐（まよいきつね）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1649",
+      "name": "家族旅行（かぞくりょこう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1650",
+      "name": "君を待つ目々（きみをまつめめ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1651",
+      "name": "黒猫道中記（くろねこどうちゅうき）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1652",
+      "name": "足摺岬（あしずりみさき）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1653",
+      "name": "二口女（ふたくちおんな）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1654",
+      "name": "鬼哭線（きこくせん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1655",
+      "name": "札絵れあ（ふだえれあ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1656",
+      "name": "平四郎蟲（へいしろうむし）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1657",
+      "name": "九龍城砦（くーろんじょうさい）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1658",
+      "name": "夜見の烏（せみのからす）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1659",
+      "name": "交換ババ（こうかんばば）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1660",
+      "name": "トラウマ（とらうま）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1661",
+      "name": "血液と灯火（ぶらっどらんぷ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1662",
+      "name": "天国の扉（てんごくのとびら）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1663",
+      "name": "件（くだん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1664",
+      "name": "小さな呪い（ちいさなのろい）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1665",
+      "name": "デジャブ（でじゃぶ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1666",
+      "name": "逆さまの怨念（さかさまのおんねん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1667",
+      "name": "佐藤一徳（さとういっとく）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1668",
+      "name": "そうぶんぜ",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1669",
+      "name": "赤い月（あかいつき）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1670",
+      "name": "目が覚めて最初に見るもの（めがさめてさいしょにみるもの）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1671",
+      "name": "駐車禁止（ちゅうしゃきんし）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1672",
+      "name": "血の視線（ちのしせん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1673",
+      "name": "シロ（しろ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1674",
+      "name": "生贄の会（いけにえのかい）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1675",
+      "name": "海底鉱山（かいてこうざん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1676",
+      "name": "銅波魔物（どーばーでーもん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1677",
+      "name": "テイ（てい）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1678",
+      "name": "ホテル活魚（ほてるかつぎょ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1679",
+      "name": "霧隠れの境界(みすてりあ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1680",
+      "name": "なんでも屋（なんでもや）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1681",
+      "name": "統率する冷血：シヴサン（とうそつするれいけつ：しぶさん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1682",
+      "name": "死神の蝋燭（しにがみのろうそく）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1683",
+      "name": "首無しライダー（くびなしらいだー）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1684",
+      "name": "凍てつく赤身（いてつくあかみ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1685",
+      "name": "邪死魔王（じゃーじーでびる）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1686",
+      "name": "鬼鏡（ききょう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1688",
+      "name": "半魚人（はんぎょじん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1689",
+      "name": "岩砕鬼（いわくだき）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1689",
+      "name": "影法師（かげぼうし）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1690",
+      "name": "鬼面の巫女（きめんのみこ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1691",
+      "name": "Dr.Sidow(どくたーしどー)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1692",
+      "name": "unknown(しらぬもの)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1693",
+      "name": "破れた絆創膏（やぶれたばんそうこう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1694",
+      "name": "一人足りない（ひとりたりない）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1695",
+      "name": "うみつづけ",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1696",
+      "name": "語部（かたりべ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1697",
+      "name": "妖巣の裂目（ようそうのさけめ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1698",
+      "name": "八咫烏（やたがらす）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1699",
+      "name": "ウワサの小道（うわさのこみち）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1700",
+      "name": "私、どう見えてますか？（わたし、どうみえてますか？）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1700",
+      "name": "合戦場（がっせんば）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1702",
+      "name": "僵屍時空（きょんしーたいむ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1703",
+      "name": "善行に努める家（ぜんこうにつとめるいえ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1704",
+      "name": "ありがとう、の、代わり、に（ありがとうのかわりに）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1705",
+      "name": "伝播（でんぱ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1706",
+      "name": "友だちの友だち（ともだちのともだち）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1707",
+      "name": "瑕疵物件検索板（かしぶっけんけんさくいた）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1708",
+      "name": "最恐札の地図（とれかのちず）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1709",
+      "name": "だまし絵（だましえ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1710",
+      "name": "悪徳業者（あくとくぎょうしゃ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1711",
+      "name": "狐狗狸さん（こっくりさん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1712",
+      "name": "闇神ちゃん（やみがみちゃん）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1713",
+      "name": "埴輪たちの逆襲（はにわたちのぎゃくしゅう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1714",
+      "name": "絶飢果樹の森（ぜっきかじゅのもり）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1715",
+      "name": "霊視の水晶（れいしのすいしょう）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1716",
+      "name": "狂い裂く庭（くるいさくにわ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1717",
+      "name": "異界監禁施設（いかいかんきんしせつ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1718",
+      "name": "しがみつくモノ（しがみつくもの）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1719",
+      "name": "獣喰らいの廃旅館（けものぐらいのはいりょかん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1720",
+      "name": "黒妖の犬族（こくようのけんぞく）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1801",
+      "name": "謎の円(みすてりーさーくる)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1802",
+      "name": "黒妖軍（こくようぐん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1803",
+      "name": "山羊吸鬼(ちゅぱかぶら)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1804",
+      "name": "人形島(にんぎょうじま)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1805",
+      "name": "つちのこ",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1806",
+      "name": "下水の巨大鰐(げすいのきょだいわに)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1807",
+      "name": "首都直下型(しゅとちょっかがた)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1808",
+      "name": "赤い雨(あかいあめ)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1809",
+      "name": "燃えていいとも(もえていいとも)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1810",
+      "name": "ニンゲン（にんげん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1811",
+      "name": "二千二十五年七月五日（にせんにじゅうごねんしちがついつか）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1812",
+      "name": "メリーさん(めりーさん)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1813",
+      "name": "暗黒物質(だーくまたー)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1814",
+      "name": "予言の札(よげんのふだ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1815",
+      "name": "赤ちゃん人形(あかちゃんにんぎょう)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1816",
+      "name": "感染拡大(ぱんでみっく)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1817",
+      "name": "複製体(くろーん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1818",
+      "name": "異世界へ(いせかいへ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1819",
+      "name": "暗躍者(あんやくしゃ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1820",
+      "name": "時空旅行者(たいむとらべらー)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1821",
+      "name": "片輪車(かたわぐるま)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1822",
+      "name": "小さいおじさん(ちいさいおじさん)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1823",
+      "name": "埋蔵金(まいぞうきん)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1824",
+      "name": "鎮魂歌(れくいえむ)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1825",
+      "name": "失われた海域(うしなわれたかいいき)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1826",
+      "name": "3億円事件(さんおくえんじけん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1827",
+      "name": "暴れものの神(あばれもののかみ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1828",
+      "name": "くっしー",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1829",
+      "name": "大足(びっくふっと)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1830",
+      "name": "霊界テレビ(れいかいてれび)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1831",
+      "name": "霊獣一目連(れいじゅういちもくれん)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1832",
+      "name": "あかいへや",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1833",
+      "name": "仮想世界の外(かそうせかいのそと)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1834",
+      "name": "霊質(れいしつ)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1835",
+      "name": "人工知能(じんこうちのう)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1836",
+      "name": "未来予知(みらいよち)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1837",
+      "name": "夢の男(ゆめのおとこ)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1838",
+      "name": "朝焼け（あさやけ）",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1839",
+      "name": "土眼（つちめ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1840",
+      "name": "狐面の神（こめんのかみ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1901",
+      "name": "先祖代々之墓(せんぞだいだいのはか)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1902",
+      "name": "妖蟲の墓(ようちゅうのはか)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1903",
+      "name": "まよい火(まよいび)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1904",
+      "name": "赤えい(あかえい)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1905",
+      "name": "のづち",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1906",
+      "name": "ねこ娘(ねこむすめ)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1907",
+      "name": "かに坊主(かにぼうず)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1908",
+      "name": "蟲憑(むしつき)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1909",
+      "name": "私の墓(わたしのはか)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1910",
+      "name": "沈めてあげる(しずめてあげる)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1911",
+      "name": "霊道(れいどう)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1912",
+      "name": "木霊の森(こだまのもり)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1913",
+      "name": "砂の竹林(すなのちくりん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1914",
+      "name": "べとべと",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1915",
+      "name": "うぶめ",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1916",
+      "name": "あずき洗い(あずきあらい)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1917",
+      "name": "さとり",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1918",
+      "name": "山姥(やまんば)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1919",
+      "name": "唐笠おばけ(からかさおばけ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1920",
+      "name": "こなきじじい",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1921",
+      "name": "夜刀神(やとのかみ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1922",
+      "name": "沼御前（ぬまごぜん）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1923",
+      "name": "ヨモツモノ(よもつもの)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1924",
+      "name": "いったん木綿(いったんもめん)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1925",
+      "name": "屈服の刻印(くっぷくのこくいん)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "1926",
+      "name": "鈴鳴り(すずなり)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2000",
+      "name": "葛見神社(くずみじんじゃ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2001",
+      "name": "lulu(るる)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2002",
+      "name": "パシンペロンはやぶさ(ぱしんぺろんはやぶさ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2003",
+      "name": "かいんどりー",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2004",
+      "name": "十二月田護朗(しわすだごろー)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2005",
+      "name": "吉田猛々(よしだもうもう)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2006",
+      "name": "つばさねこ",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2007",
+      "name": "吉田猛々猫の姿(よしだもうもうねこのすがた)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2008",
+      "name": "サヤカスター(さやかすたー)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2009",
+      "name": "猛々の嫁メリケンサック(もうもうのよめめりけんさっく)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2010",
+      "name": "築地の健吾(つきじのけんご)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2011",
+      "name": "JBK(じこぶっけんかいぎしつ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2012",
+      "name": "GKM(がーりっく・まねー・かも～)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2014",
+      "name": "同心(どうしん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2015",
+      "name": "hamaTime(はまたいむ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2016",
+      "name": "うえまつそう",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2017",
+      "name": "社員寮(しゃいんりょう)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2018",
+      "name": "呪怨家(じゅおんけ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2019",
+      "name": "夏目太一朗(なつめたいちろう)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2020",
+      "name": "関口ケント(せきぐちけんと)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2021",
+      "name": "大赤見ノヴ(おおあかみのゔ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2022",
+      "name": "オオパパミ(おおぱぱみ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2023",
+      "name": "かつらナナ(かつらなな)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2024",
+      "name": "おごぽご",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2025",
+      "name": "ドラゴンハンマー(どらごんはんまー)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2026",
+      "name": "引児(ひきじ)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2027",
+      "name": "牛抱せん夏(うしだきせんか)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2028",
+      "name": "呪怨家の呪い(じゅおんけののろい)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2029",
+      "name": "ゴリ神様(ごりがみさま)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2030",
+      "name": "怪談ショーの椅子(かいだんしょーのいす)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2031",
+      "name": "マーシーの張り紙(まーしーのはりがみ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2032",
+      "name": "さあやりましょう",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2033",
+      "name": "A4コピー用紙(えーよんこぴーようし)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2034",
+      "name": "ズズズのトンネル(ずずずのとんねる)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2035",
+      "name": "ミミズーク(みみずーく)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2036",
+      "name": "のりまき",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2037",
+      "name": "半身の男(はんみのおとこ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2038",
+      "name": "ちぇるちぇりうむ",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2039",
+      "name": "無垢な願い(むくなねがい)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2040",
+      "name": "にしお",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2041",
+      "name": "あかうぼ",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2042",
+      "name": "ノヴ神ライター(のゔがみらいたー)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2043",
+      "name": "DDD(でぃーぷ・でぃーぱー・でぃーぺすと)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2044",
+      "name": "海辺の公衆トイレ(うみべのこうしゅうといれ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2045",
+      "name": "がん",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2046",
+      "name": "ハニトラ梅木(はにとらうめき)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2047",
+      "name": "カチモード児玉(かちもーどこだま)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2048",
+      "name": "ブッシュ(ぶっしゅ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2049",
+      "name": "夜馬裕(やまゆう)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2050",
+      "name": "お魚怪談(おさかなかいだん)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2051",
+      "name": "ポル子(ぽるこ)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2052",
+      "name": "みつけて",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2053",
+      "name": "鏡と石(かがみといし)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2054",
+      "name": "おろげずるーむ",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2055",
+      "name": "儀式邸(ぎしきてい)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2056",
+      "name": "猛々の子供部屋(もうもうのこどもべや)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2057",
+      "name": "呪われたカイエン(のろわれたかいえん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2058",
+      "name": "響洋平(ひびきようへい)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2059",
+      "name": "真実を語る黒子(しんじつをかたるくろこ)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2060",
+      "name": "黒い子宮(くろいしきゅう)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2061",
+      "name": "生首ヘアゴム(なまくびへあごむ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2062",
+      "name": "ねこポーチ(ねこぽーち)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2063",
+      "name": "きよめたまえ",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2064",
+      "name": "GMK BLACK CARD(じーえむけーぶらっくかーど)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2065",
+      "name": "恐怖(きょうふ)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2101",
+      "name": "ないしょばなし",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2102",
+      "name": "妖怪美容室(ようかいびようしつ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2103",
+      "name": "桜花雨(さくられいん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2104",
+      "name": "世見鬼(せみき)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2105",
+      "name": "歩き巫女(あるきみこ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2106",
+      "name": "牌塔(かーどたわー)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2107",
+      "name": "化け猫(こぴーきゃっと)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2108",
+      "name": "福徳正神(ふくとくせいじん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2109",
+      "name": "屋敷の最奥(やしきのさいおう)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2110",
+      "name": "猫屋敷の闇(ねこやしきのやみ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2111",
+      "name": "血の種(ちのたね)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2112",
+      "name": "戦武者(いくさむしゃ)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2113",
+      "name": "吸血(きゅうけつ)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2114",
+      "name": "黒い小熊猫(くろいこぐまねこ)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2115",
+      "name": "私ノ愛シイ人(わたしのいとしいひと)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2116",
+      "name": "化狸(ばけたぬき)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2117",
+      "name": "陰導の大鎌(しゃどうのおおがま)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2118",
+      "name": "とまんないおばんざい",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2119",
+      "name": "蛇行剣(だこうけん)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2120",
+      "name": "白月(はくげつ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2121",
+      "name": "咎人の刀(とがびとのかたな)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2122",
+      "name": "血の祭儀(ちのさいぎ)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2123",
+      "name": "蚕様三女の惨劇(さんようさんじょのさんげき)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2124",
+      "name": "腐っても鯛(くさってもたい)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2125",
+      "name": "触らぬ神に祟り無し(ふらぬかみにたたりなし)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2126",
+      "name": "お空のかげ(おそらのかげ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2127",
+      "name": "アイリスラーメン(あいりすらーめん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2128",
+      "name": "妊婦絵(にんぷえ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2129",
+      "name": "世見猫(せみねこ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2130",
+      "name": "歯のある魚群(はのあるぎょぐん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2131",
+      "name": "華炎花火(かえんはなび)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2132",
+      "name": "魔神仔モシナ(まじんこもしな)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2133",
+      "name": "奈落(ならく)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2134",
+      "name": "神蟲(じんちゅう)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2135",
+      "name": "気配(けはい)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2136",
+      "name": "怨念の憎(おんねんのぞう)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2137",
+      "name": "巡り合い(めぐりあい)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2138",
+      "name": "寄生支配(ぱらさいとじゃっく)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2139",
+      "name": "狐面の巫女(こめんのみこ)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2140",
+      "name": "ダブッダマンズ(だぶっだまんず)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2141",
+      "name": "トモカヅキ(ともかづき)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2142",
+      "name": "気づいて(きづいて)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2143",
+      "name": "痣通洲架橋、堕螺児(あざとおすらせん、だらつじ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2144",
+      "name": "ムクロギヒメ(むくろぎひめ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2145",
+      "name": "人形屋敷(どーるはうす)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2146",
+      "name": "龍窟(りゅうくつ)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2147",
+      "name": "陰峰トンネル(かげみねとんねる)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2148",
+      "name": "百貨店(ひゃっかてん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2149",
+      "name": "うわん",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2150",
+      "name": "世見狐(せみこ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2151",
+      "name": "死んでも許さない(しんでもゆるさない)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2152",
+      "name": "忘れないで(わすれないで)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2153",
+      "name": "ワラウキミ(わらうきみ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2154",
+      "name": "IBC(あいびーしー)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2155",
+      "name": "レア枠(れあわく)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2156",
+      "name": "黄泉平坂(よもつひらさか)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2157",
+      "name": "栄えある能力(はえあるのうりょく)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2158",
+      "name": "ヤマノケ(やまのけ)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2159",
+      "name": "深い愛情(ふかいあいじょう)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2160",
+      "name": "ジャンピングババア(じゃんぴんぐばばあ)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2161",
+      "name": "泥田坊(どろたぼう)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2162",
+      "name": "わたつみの子供(わたつみのこども)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2163",
+      "name": "孵らなかった7番目の子雛(かえらなかったななばんめのこひな)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2164",
+      "name": "福おじいちゃん(ふくおじいちゃん)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2165",
+      "name": "唐傘の存在(からかさのそんざい)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2166",
+      "name": "アイスティー(あいすてぃー)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2167",
+      "name": "妄執の果て(もうしゅうのはて)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2168",
+      "name": "おいしい人(おいしいひと)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2169",
+      "name": "たま霊園(たまれいえん)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2170",
+      "name": "隔離室(かくりしつ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2171",
+      "name": "黒音れも(くろねれも)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2172",
+      "name": "訪問者(ほうもんしゃ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2173",
+      "name": "深夜の廃工場(しんやのはいこうじょう)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2174",
+      "name": "世見花(せみか)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2175",
+      "name": "王国の低音奏者(おうこくのていおんそうしゃ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2176",
+      "name": "お化けマンション(おばけまんしょん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2177",
+      "name": "ゆーちゃそ王子(ゆーちゃそおうじ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2178",
+      "name": "鬼我島(おにがしま)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2179",
+      "name": "番町皿屋敷(ばんちょうさらやしき)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2180",
+      "name": "GEEK(ぎーく)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2181",
+      "name": "ゆきんこ",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2182",
+      "name": "かみつき鬼(かみつきおに)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2183",
+      "name": "尾鰭のついた噂(おひれのついたうわさ)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2184",
+      "name": "奥へ進む者(おくへすすむもの)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2185",
+      "name": "赤い女(あかいおんな)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2186",
+      "name": "融合体(ゆうごうたい)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2187",
+      "name": "黄金体験(おうごんたいけん)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2188",
+      "name": "地下室の噂(ちかしつのうわさ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2189",
+      "name": "カツアゲ(かつあげ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2190",
+      "name": "取替子(ちぇんじりんぐ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2191",
+      "name": "あっ",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2192",
+      "name": "ご招待(ごしょうたい)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2193",
+      "name": "休憩中(きゅうけいちゅう)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2194",
+      "name": "誰も知らない石碑(だれもしらないせきひ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2195",
+      "name": "妙味真似(みょうみまね)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2196",
+      "name": "HAVE A NICE CURSE!!(よいのろいを！！)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2197",
+      "name": "骨格の城(こっかくのしろ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2198",
+      "name": "ここぼし",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2199",
+      "name": "足いるか？(あしいるか？)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2200",
+      "name": "渡り歩く蟹麺(わたりあるくかにめん)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2201",
+      "name": "魔境の札(まきょうのふだ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2202",
+      "name": "戦いの絵(たたかいのえ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2203",
+      "name": "線香花火(せんこうはなび)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2204",
+      "name": "貧血(ひんけつ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2205",
+      "name": "■■を探しています。(■■をさがしています。)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2206",
+      "name": "四十七曲収録(よんじゅうななきょくしゅうろく)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2207",
+      "name": "球苦のペンダント(たまくのぺんだんと)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2208",
+      "name": "祈りの巫女人形(いのりのみこにんぎょう)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2209",
+      "name": "呪札(じゅふ)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2210",
+      "name": "肝試し(きもだめし)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2211",
+      "name": "泡沫に消える来賓(うたかたにきえるらいひん)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2212",
+      "name": "光神ちゃん(ひかりかみちゃん)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2213",
+      "name": "屛風絵(びょうぶえ)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2214",
+      "name": "後藤商店(ごとうしょうてん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2215",
+      "name": "あにめ",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2216",
+      "name": "五色沼の主(ごしょくぬまのあるじ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2217",
+      "name": "出土する墳墓(しゅつどするふんぼ)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2218",
+      "name": "入道雲(にゅうどうぐも)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2219",
+      "name": "鬼人の蟲毒(きじんのこどく)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "2220",
+      "name": "せかいこわれた",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10001",
+      "name": "れもんちゃんでっ",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10006",
+      "name": "わたしのTO（わたしのとっぷおた トップオタ）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10007",
+      "name": "巫であそぼ（かんなぎであそぼ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10008",
+      "name": "巫の看板娘（かんなぎのかんばんむすめ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10009",
+      "name": "火除地酒（ひよけちしゅ）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10010",
+      "name": "鬼人村（きじんむら）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10011",
+      "name": "霊園前電話ボックス（れいえんまえでんわぼっくす）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10012",
+      "name": "カードピア（かーどぴあ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10013",
+      "name": "統率する猛火：超龍（とうそつするもうか：ちょうりゅう）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10014",
+      "name": "統率する冷血：シヴサン（とうそつするれいけつ：しぶさん）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10015",
+      "name": "いっしょにあそぼ・・・",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10016",
+      "name": "泡沫に消える来賓(うたかたにきえるらいひん)",
+      "type": "季節札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10017",
+      "name": "隠された櫛の家（かくされたくしのいえ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10018",
+      "name": "ランタン（らんたん）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10019",
+      "name": "巫の幽霊（かんなぎのゆうれい）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10020",
+      "name": "朧車（おぼろぐるま）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10021",
+      "name": "雲外鏡（うんがいきょう）",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10022",
+      "name": "血を吸ったマフラー(ちをすったまふらー)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10023",
+      "name": "世見鬼(せみき)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10024",
+      "name": "世見猫(せみねこ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10025",
+      "name": "世見狐(せみこ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10026",
+      "name": "世見花(せみか)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10027",
+      "name": "とまんないおばんざい",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10028",
+      "name": "GEEK(ぎーく)",
+      "type": "怪異札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10029",
+      "name": "破壊龍(はかいりゅう)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10030",
+      "name": "牌塔(かーどたわー)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10031",
+      "name": "人毛の藁人形（じんもうのわらにんぎょう）",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10032",
+      "name": "後藤商店(ごとうしょうてん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10033",
+      "name": "那須物語(なすものがたり)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10034",
+      "name": "死の蛆(ですわーむ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10035",
+      "name": "芍薬童子(しゃくやくどうじ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10036",
+      "name": "氷蜃(ひょうしん)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10037",
+      "name": "なないろ天獄(なないろてんごく)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10038",
+      "name": "休憩中(きゅうけいちゅう)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10039",
+      "name": "天への道(てんへのみち)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10040",
+      "name": "終わらない夢(おわらないゆめ)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10041",
+      "name": "血を吸ったマフラー(ちをすったまふらー)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10042",
+      "name": "ねこポーチ(ねこぽーち)",
+      "type": "道具札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10043",
+      "name": "螺旋階段の悪夢（らせんかいだんのあくむ）",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10044",
+      "name": "闇(やみ)",
+      "type": "不明",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    },
+    {
+      "number": "10045",
+      "name": "アイリスラーメンch(あいりすらーめんちゃんねる)",
+      "type": "場所札",
+      "image": "https://hanil524.github.io/kannagi-cardlist/placeholder.jpg"
+    }
+  ]
+}
