@@ -12,44 +12,32 @@
       <label class="view-select-wrap">
         <select id="view-select">
           <option value="deck" selected>デッキ一覧</option>
-          <option value="play">盤面</option>
+          <option value="play">プレイエリア</option>
         </select>
       </label>
     </header>
 
     <main class="app-main">
       <section id="tab-deck" class="tab-panel is-active">
-        <div class="builder-layout">
-          <aside class="side-nav">
-            <h3>デッキ読み込み</h3>
-            <p>巫カードフィルターで作った共有コードを使用</p>
-            <div class="side-nav-list">
-              <div class="side-nav-item is-active">共有コード適用</div>
-              <div class="side-nav-item">デッキ確認</div>
-            </div>
-            <div class="deck-actions side-actions">
-              <p>合計: <strong id="deck-total">0</strong> 枚</p>
-              <button id="clear-deck-button" class="danger">デッキをクリア</button>
-            </div>
-          </aside>
+        <div class="builder-content deck-single-pane">
+          <div class="panel-header">
+            <h2>共有デッキコードを適用</h2>
+            <p>巫カードフィルターで発行したコードを貼り付けてください</p>
+          </div>
 
-          <div class="builder-content">
-            <div class="panel-header">
-              <h2>共有デッキコードを適用</h2>
-              <p>巫カードフィルターで発行したコードを貼り付けてください</p>
-            </div>
-
-            <div class="box">
-              <div class="deck-import">
-                <h4>共有コード</h4>
-                <textarea id="deck-code-input" rows="3" placeholder="例: 5|e7b7d15d2f|AQMBAwEDAQMBAwQD"></textarea>
+          <div class="box">
+            <div class="deck-import">
+              <h4>共有コード</h4>
+              <textarea id="deck-code-input" rows="3" placeholder="例: 5|e7b7d15d2f|AQMBAwEDAQMBAwQD"></textarea>
+              <div class="inline-actions">
                 <button id="deck-code-apply-button" type="button">コードを適用</button>
+                <button id="clear-deck-button" class="danger" type="button">デッキクリア</button>
               </div>
-              <div class="deck-import">
-                <h4>適用中デッキ</h4>
-                <p class="hint">コード適用後、盤面タブでそのまま一人回しできます</p>
-                <div id="deck-list" class="deck-list"></div>
-              </div>
+            </div>
+            <div class="deck-import">
+              <h4>適用中デッキ（合計: <strong id="deck-total">0</strong> 枚）</h4>
+              <p class="hint">コード適用後、プレイエリアでそのまま一人回しできます</p>
+              <div id="deck-list" class="deck-list"></div>
             </div>
           </div>
         </div>
@@ -57,6 +45,15 @@
 
       <section id="tab-play" class="tab-panel">
         <div class="playmat simple-playmat">
+          <div class="play-floating-ui">
+            <div class="life-counter">
+              <span>ライフ</span>
+              <button id="life-minus-button" type="button">-</button>
+              <strong id="life-value">30</strong>
+              <button id="life-plus-button" type="button">+</button>
+              <button id="life-reset-button" type="button">リセット</button>
+            </div>
+          </div>
           <div id="field-zone" class="field-zone">
             <div id="deck-zone" class="deck-zone">
               <div id="deck-stack" class="deck-stack">
@@ -65,6 +62,22 @@
             </div>
           </div>
           <div id="hand-zone" class="hand-zone hand-overlay"></div>
+        </div>
+        <div id="zero-search-modal" class="zero-search-modal" aria-hidden="true">
+          <div class="zero-search-panel">
+            <h3 id="zero-search-title">零探し</h3>
+            <p id="zero-search-description">
+              先攻から任意枚数の手札を公開し、好きな順で山札の一番下に置いて同枚数を1回だけ引き直せます。
+            </p>
+            <div id="zero-search-cards" class="zero-search-cards"></div>
+            <p id="zero-search-selected" class="zero-search-selected"></p>
+            <div class="zero-search-actions">
+              <button id="zero-search-start-button" type="button">零探しする</button>
+              <button id="zero-search-apply-button" type="button">選択分を引き直す</button>
+              <button id="zero-search-back-button" type="button">戻る</button>
+              <button id="zero-search-skip-button" type="button">そのまま開始</button>
+            </div>
+          </div>
         </div>
       </section>
     </main>

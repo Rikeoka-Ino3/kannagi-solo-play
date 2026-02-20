@@ -13,6 +13,9 @@ const state = {
   hand: [],
   field: [],
   selectedHandId: null,
+  life: 30,
+  zeroSearchPhase: "idle", // idle | intro | select | done
+  zeroSearchOrder: [],
 };
 
 const els = {
@@ -35,6 +38,19 @@ const els = {
   cardPreviewNumber: document.getElementById("card-preview-number"),
   cardPreviewName: document.getElementById("card-preview-name"),
   cardPreviewType: document.getElementById("card-preview-type"),
+  lifeValue: document.getElementById("life-value"),
+  lifeMinusButton: document.getElementById("life-minus-button"),
+  lifePlusButton: document.getElementById("life-plus-button"),
+  lifeResetButton: document.getElementById("life-reset-button"),
+  zeroSearchModal: document.getElementById("zero-search-modal"),
+  zeroSearchTitle: document.getElementById("zero-search-title"),
+  zeroSearchDescription: document.getElementById("zero-search-description"),
+  zeroSearchCards: document.getElementById("zero-search-cards"),
+  zeroSearchSelected: document.getElementById("zero-search-selected"),
+  zeroSearchStartButton: document.getElementById("zero-search-start-button"),
+  zeroSearchApplyButton: document.getElementById("zero-search-apply-button"),
+  zeroSearchBackButton: document.getElementById("zero-search-back-button"),
+  zeroSearchSkipButton: document.getElementById("zero-search-skip-button"),
 };
 
 init();
@@ -57,12 +73,14 @@ function bindEvents() {
     await applyDeckCode(els.deckCodeInput.value.trim());
   });
   els.deckStack.addEventListener("click", (event) => {
+    if (isZeroSearchBlocking()) return;
     if (state.drawPile.length === 0 && state.hand.length === 0 && state.field.length === 0) {
       if (!loadDeckToPlay(true, 8)) return;
     }
     drawCards(event.shiftKey ? 5 : 1);
   });
   els.deckStack.addEventListener("contextmenu", (event) => {
+    if (isZeroSearchBlocking()) return;
     event.preventDefault();
     state.drawPile = shuffle([...state.drawPile]);
     renderPlay();
@@ -108,12 +126,46 @@ function bindEvents() {
     if (event.key === "Escape" && !els.cardPreviewModal.classList.contains("is-open")) return;
     if (event.key === "Escape") closeCardPreview();
   });
+  els.lifeMinusButton.addEventListener("click", () => {
+    state.life = Math.max(0, state.life - 1);
+    renderPlay();
+  });
+  els.lifePlusButton.addEventListener("click", () => {
+    state.life = Math.min(99, state.life + 1);
+    renderPlay();
+  });
+  els.lifeResetButton.addEventListener("click", () => {
+    state.life = 30;
+    renderPlay();
+  });
+  els.zeroSearchStartButton.addEventListener("click", () => {
+    state.zeroSearchPhase = "select";
+    state.zeroSearchOrder = [];
+    renderPlay();
+  });
+  els.zeroSearchApplyButton.addEventListener("click", () => {
+    applyZeroSearch();
+  });
+  els.zeroSearchBackButton.addEventListener("click", () => {
+    state.zeroSearchPhase = "intro";
+    state.zeroSearchOrder = [];
+    renderPlay();
+  });
+  els.zeroSearchSkipButton.addEventListener("click", () => {
+    state.zeroSearchPhase = "done";
+    state.zeroSearchOrder = [];
+    renderPlay();
+  });
 }
 
 function clearHandDragState() {
   draggingHandUid = null;
   els.fieldZone.classList.remove("is-drop-target");
   els.handZone.classList.remove("is-drop-target");
+}
+
+function isZeroSearchBlocking() {
+  return state.zeroSearchPhase === "intro" || state.zeroSearchPhase === "select";
 }
 
 function getFieldCardSize() {
@@ -243,6 +295,9 @@ function loadDeckToPlay(silent = false, openingHand = 0) {
   state.hand = [];
   state.field = [];
   state.selectedHandId = null;
+  state.life = 30;
+  state.zeroSearchPhase = "intro";
+  state.zeroSearchOrder = [];
   if (openingHand > 0) drawCards(openingHand);
   renderPlay();
   return true;
@@ -284,6 +339,7 @@ function moveHandCardToField(uid, preferredPos = null) {
 function renderPlay() {
   els.drawPileCount.textContent = String(state.drawPile.length);
   els.deckStack.classList.toggle("is-empty", state.drawPile.length === 0);
+  els.lifeValue.textContent = String(state.life);
   els.handZone.innerHTML = "";
   const deckZone = document.getElementById("deck-zone");
   els.fieldZone.innerHTML = "";
@@ -339,6 +395,76 @@ function renderPlay() {
     });
     els.fieldZone.appendChild(node);
   });
+  renderZeroSearchModal();
+}
+
+function renderZeroSearchModal() {
+  const open = isZeroSearchBlocking();
+  els.zeroSearchModal.classList.toggle("is-open", open);
+  els.zeroSearchModal.setAttribute("aria-hidden", open ? "false" : "true");
+  if (!open) return;
+
+  if (state.zeroSearchPhase === "intro") {
+    els.zeroSearchTitle.textContent = "零探し";
+    els.zeroSearchDescription.textContent = "任意枚数の手札を山札の一番下に置き、同じ枚数を1回だけ引けます。";
+    els.zeroSearchCards.innerHTML = "";
+    els.zeroSearchSelected.textContent = "最初の手札を確認して、必要なら零探しを行ってください。";
+    els.zeroSearchStartButton.style.display = "";
+    els.zeroSearchSkipButton.style.display = "";
+    els.zeroSearchApplyButton.style.display = "none";
+    els.zeroSearchBackButton.style.display = "none";
+    return;
+  }
+
+  els.zeroSearchTitle.textContent = "零探し - 入れ替える札を選択";
+  els.zeroSearchDescription.textContent = "クリック順が山札下に置く順番になります。";
+  els.zeroSearchCards.innerHTML = "";
+  const orderMap = new Map(state.zeroSearchOrder.map((uid, idx) => [uid, idx + 1]));
+  state.hand.forEach((card) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "zero-card";
+    if (orderMap.has(card.uid)) button.classList.add("is-picked");
+    const orderNo = orderMap.get(card.uid);
+    button.innerHTML = `
+      <img src="${escapeHtml(card.image || CARD_BACK_IMAGE)}" alt="${escapeHtml(card.name || `No.${card.number}`)}" />
+      ${orderNo ? `<span class="order-badge">${orderNo}</span>` : ""}
+    `;
+    button.addEventListener("click", () => {
+      const existing = state.zeroSearchOrder.indexOf(card.uid);
+      if (existing >= 0) {
+        state.zeroSearchOrder.splice(existing, 1);
+      } else {
+        state.zeroSearchOrder.push(card.uid);
+      }
+      renderZeroSearchModal();
+    });
+    els.zeroSearchCards.appendChild(button);
+  });
+  els.zeroSearchSelected.textContent = `選択中: ${state.zeroSearchOrder.length} 枚`;
+  els.zeroSearchStartButton.style.display = "none";
+  els.zeroSearchSkipButton.style.display = "";
+  els.zeroSearchApplyButton.style.display = "";
+  els.zeroSearchBackButton.style.display = "";
+}
+
+function applyZeroSearch() {
+  const order = state.zeroSearchOrder.filter((uid) => state.hand.some((c) => c.uid === uid));
+  const selectedCards = [];
+  order.forEach((uid) => {
+    const idx = state.hand.findIndex((c) => c.uid === uid);
+    if (idx >= 0) selectedCards.push(state.hand.splice(idx, 1)[0]);
+  });
+  selectedCards.forEach((card) => {
+    state.drawPile.unshift(card);
+  });
+  for (let i = 0; i < selectedCards.length; i += 1) {
+    if (state.drawPile.length === 0) break;
+    state.hand.push(state.drawPile.pop());
+  }
+  state.zeroSearchOrder = [];
+  state.zeroSearchPhase = "done";
+  renderPlay();
 }
 
 function attachHandCardInteractions(node, card) {

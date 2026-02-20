@@ -219,6 +219,11 @@ body::after {
   min-height: 0;
 }
 
+.deck-single-pane {
+  width: min(1200px, 96vw);
+  margin: 0 auto;
+}
+
 .card-catalog {
   width: min(1200px, 96vw);
   margin: 0 auto;
@@ -522,6 +527,13 @@ button.is-active {
   resize: vertical;
 }
 
+.inline-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 8px;
+}
+
 .deck-actions {
   margin-top: 10px;
   display: flex;
@@ -580,6 +592,39 @@ button.is-active {
   grid-template-rows: minmax(0, 1fr) auto;
   height: 100%;
   min-height: 0;
+  position: relative;
+}
+
+.play-floating-ui {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.life-counter {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  background: rgba(2, 6, 23, 0.86);
+  box-shadow: 0 10px 24px rgba(2, 6, 23, 0.45);
+}
+
+.life-counter strong {
+  min-width: 32px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.life-counter button {
+  min-width: 36px;
+  height: 32px;
+  padding: 0 10px;
 }
 
 .zone {
@@ -781,6 +826,97 @@ button.is-active {
   color: #e0f2fe;
 }
 
+.zero-search-modal {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(2, 6, 23, 0.78);
+  backdrop-filter: blur(3px);
+}
+
+.zero-search-modal.is-open {
+  display: flex;
+}
+
+.zero-search-panel {
+  width: min(1020px, 94vw);
+  max-height: 86vh;
+  overflow: auto;
+  border-radius: 14px;
+  border: 1px solid #334155;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(2, 6, 23, 0.96));
+  box-shadow: 0 20px 40px rgba(2, 6, 23, 0.6);
+  padding: 18px;
+}
+
+.zero-search-panel h3 {
+  margin: 0 0 8px;
+  font-size: 24px;
+}
+
+.zero-search-panel p {
+  margin: 0;
+  color: #cbd5e1;
+}
+
+.zero-search-cards {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 10px;
+}
+
+.zero-card {
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  padding: 0;
+  overflow: hidden;
+  background: #020617;
+}
+
+.zero-card img {
+  width: 100%;
+  aspect-ratio: 63 / 88;
+  display: block;
+  object-fit: cover;
+}
+
+.zero-card.is-picked {
+  border-color: #22d3ee;
+  box-shadow: 0 0 0 2px rgba(34, 211, 238, 0.5) inset;
+}
+
+.order-badge {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  min-width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #0f172a;
+  background: #67e8f9;
+  border: 1px solid #0891b2;
+}
+
+.zero-search-selected {
+  margin-top: 10px !important;
+}
+
+.zero-search-actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 .deck-zone {
   --deck-x: 56%;
   --deck-y: 36%;
@@ -883,6 +1019,22 @@ button.is-active {
 
   .field-zone {
     background-size: contain;
+  }
+
+  .life-counter {
+    gap: 6px;
+    padding: 5px 8px;
+  }
+
+  .life-counter strong {
+    min-width: 26px;
+    font-size: 15px;
+  }
+
+  .life-counter button {
+    min-width: 30px;
+    height: 28px;
+    padding: 0 8px;
   }
 }
 
