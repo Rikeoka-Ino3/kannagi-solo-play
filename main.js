@@ -620,7 +620,7 @@ async function loadLocalMasterCatalog() {
     const json = await res.json();
     const cards = Array.isArray(json) ? json : json.cards;
     if (!Array.isArray(cards)) return [];
-    return cards
+    const normalized = cards
       .map((c) => ({
         number: String(c.number || "").trim(),
         name: c.name || "",
@@ -628,6 +628,11 @@ async function loadLocalMasterCatalog() {
         image: c.image || "./card/logo/cardback.jpg",
       }))
       .filter((c) => c.number);
+    if (normalized.length === 0) return [];
+    const hasNonPlaceholder = normalized.some(
+      (c) => c.image && !/\/placeholder\.jpg$/i.test(String(c.image)),
+    );
+    return hasNonPlaceholder ? normalized : [];
   } catch {
     return [];
   }

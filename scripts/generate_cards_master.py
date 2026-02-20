@@ -36,8 +36,13 @@ def parse_cards(cards_html: str) -> list[dict[str, str]]:
         if not number:
             continue
 
-        img_match = re.search(r'<img[^>]*(?:data-src|src)="([^"]+)"[^>]*>', card_block)
-        raw_src = img_match.group(1) if img_match else ""
+        img_data_src_match = re.search(r'<img[^>]*data-src="([^"]+)"[^>]*>', card_block)
+        img_src_match = re.search(r'<img[^>]*src="([^"]+)"[^>]*>', card_block)
+        raw_src = ""
+        if img_data_src_match and img_data_src_match.group(1).strip():
+            raw_src = img_data_src_match.group(1)
+        elif img_src_match:
+            raw_src = img_src_match.group(1)
         if raw_src.startswith("http"):
             image = raw_src
         else:
