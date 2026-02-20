@@ -692,18 +692,32 @@ function showFieldFaceMenu(card, node) {
     });
     menu.appendChild(button);
   };
+  const addDetailAction = () => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = "詳細";
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
+      closeMenu();
+      openCardPreview(card.number, card);
+    });
+    menu.appendChild(button);
+  };
 
   const currentMode = card.viewMode || "front";
   if (currentMode === "back") {
     addAction("表", "front");
   } else if (currentMode === "side") {
     addAction("起", "front");
+    addDetailAction();
   } else if (currentMode === "reverse") {
     addAction("戻", "front");
+    addDetailAction();
   } else {
     addAction("裏", "back");
     addAction("伏", "side");
     addAction("逆", "reverse");
+    addDetailAction();
   }
 
   els.fieldZone.appendChild(menu);

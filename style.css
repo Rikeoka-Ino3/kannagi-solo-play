@@ -15,6 +15,8 @@
   --deck-height: 162px;
   --deck-count-size: 34px;
   --deck-count-font-size: 12px;
+  --deck-x: 56%;
+  --deck-y: 36%;
 }
 
 /* 1920x1080クラス */
@@ -48,14 +50,16 @@
 /* iPhone帯 */
 @media (max-width: 480px) {
   :root {
-    --field-card-width: 90px;
-    --hand-card-width: 62px;
-    --hand-overlap: -18px;
-    --deck-zone-width: 118px;
-    --deck-width: 82px;
-    --deck-height: 116px;
+    --field-card-width: 72px;
+    --hand-card-width: 56px;
+    --hand-overlap: -16px;
+    --deck-zone-width: 102px;
+    --deck-width: 70px;
+    --deck-height: 100px;
     --deck-count-size: 26px;
     --deck-count-font-size: 10px;
+    --deck-x: 71%;
+    --deck-y: 42%;
   }
 }
 
@@ -942,8 +946,6 @@ button.is-active {
 }
 
 .deck-zone {
-  --deck-x: 56%;
-  --deck-y: 36%;
   position: absolute;
   left: var(--deck-x);
   top: var(--deck-y);
@@ -1141,8 +1143,8 @@ button.is-active {
   }
 
   .field-zone {
-    background-size: contain;
-    background-position: center center;
+    background-size: auto 100%;
+    background-position: center bottom;
   }
 
   .hand-zone {
@@ -1152,5 +1154,43 @@ button.is-active {
     padding-left: 8px;
     padding-right: 8px;
     scrollbar-width: thin;
+  }
+
+  .play-floating-ui {
+    top: 6px;
+    right: 6px;
+  }
+
+  .life-counter-group {
+    gap: 3px;
+  }
+
+  .life-counter {
+    gap: 4px;
+    padding: 4px 6px;
+    border-radius: 8px;
+  }
+
+  .life-counter span {
+    font-size: 11px;
+  }
+
+  .life-counter strong {
+    min-width: 20px;
+    font-size: 14px;
+  }
+
+  .life-counter button {
+    min-width: 24px;
+    height: 24px;
+    padding: 0 6px;
+    font-size: 11px;
+  }
+
+  .play-utility-actions button {
+    min-width: auto;
+    height: 24px;
+    padding: 0 8px;
+    font-size: 10px;
   }
 }
