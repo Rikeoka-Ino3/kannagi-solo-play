@@ -50,7 +50,7 @@
 /* iPhone帯 */
 @media (max-width: 480px) {
   :root {
-    --field-card-width: 46px;
+    --field-card-width: 42px;
     --hand-card-width: 56px;
     --hand-overlap: -16px;
     --deck-zone-width: 92px;
@@ -1145,12 +1145,20 @@ button.is-active {
   .field-zone {
     height: auto;
     aspect-ratio: 3 / 2;
-    background-size: contain;
+    background-size: 106% auto;
     background-position: center top;
     margin-top: 0;
     margin-bottom: 2px;
     align-self: auto;
     flex: 0 0 auto;
+  }
+
+  .field-card {
+    width: 42px !important;
+  }
+
+  .hand-drag-ghost {
+    width: 42px !important;
   }
 
   .simple-playmat {
