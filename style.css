@@ -1147,7 +1147,9 @@ button.is-active {
     aspect-ratio: 3 / 2;
     background-size: 100% auto;
     background-position: center bottom;
-    margin-top: 10px;
+    margin-top: 22px;
+    margin-bottom: 2px;
+    align-self: end;
   }
 
   .simple-playmat {
