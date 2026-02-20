@@ -48,18 +48,21 @@
           <div class="play-floating-ui">
             <div class="life-counter-group">
               <div class="life-counter">
+                <span>相手</span>
+                <button id="life-opponent-minus-button" type="button">-</button>
+                <strong id="life-opponent-value">30</strong>
+                <button id="life-opponent-plus-button" type="button">+</button>
+                <button id="life-opponent-reset-button" type="button">リセット</button>
+              </div>
+              <div class="life-counter">
                 <span>自分</span>
                 <button id="life-self-minus-button" type="button">-</button>
                 <strong id="life-self-value">30</strong>
                 <button id="life-self-plus-button" type="button">+</button>
                 <button id="life-self-reset-button" type="button">リセット</button>
               </div>
-              <div class="life-counter">
-                <span>相手</span>
-                <button id="life-opponent-minus-button" type="button">-</button>
-                <strong id="life-opponent-value">30</strong>
-                <button id="life-opponent-plus-button" type="button">+</button>
-                <button id="life-opponent-reset-button" type="button">リセット</button>
+              <div class="play-utility-actions">
+                <button id="game-reset-button" type="button">開始画面に戻る</button>
               </div>
             </div>
           </div>
@@ -81,9 +84,8 @@
             <div id="zero-search-cards" class="zero-search-cards"></div>
             <p id="zero-search-selected" class="zero-search-selected"></p>
             <div class="zero-search-actions">
-              <button id="zero-search-start-button" type="button">零探しする</button>
-              <button id="zero-search-apply-button" type="button">選択分を引き直す</button>
-              <button id="zero-search-back-button" type="button">戻る</button>
+              <button id="game-start-button" type="button">ゲーム開始</button>
+              <button id="zero-search-apply-button" type="button">選択して入れ替え</button>
               <button id="zero-search-skip-button" type="button">そのまま開始</button>
             </div>
           </div>

@@ -15,7 +15,7 @@ const state = {
   selectedHandId: null,
   lifeSelf: 30,
   lifeOpponent: 30,
-  zeroSearchPhase: "idle", // idle | intro | select | done
+  zeroSearchPhase: "idle", // idle | start | choose | done
   zeroSearchOrder: [],
 };
 
@@ -48,14 +48,14 @@ const els = {
   lifeOpponentMinusButton: document.getElementById("life-opponent-minus-button"),
   lifeOpponentPlusButton: document.getElementById("life-opponent-plus-button"),
   lifeOpponentResetButton: document.getElementById("life-opponent-reset-button"),
+  gameResetButton: document.getElementById("game-reset-button"),
   zeroSearchModal: document.getElementById("zero-search-modal"),
   zeroSearchTitle: document.getElementById("zero-search-title"),
   zeroSearchDescription: document.getElementById("zero-search-description"),
   zeroSearchCards: document.getElementById("zero-search-cards"),
   zeroSearchSelected: document.getElementById("zero-search-selected"),
-  zeroSearchStartButton: document.getElementById("zero-search-start-button"),
+  gameStartButton: document.getElementById("game-start-button"),
   zeroSearchApplyButton: document.getElementById("zero-search-apply-button"),
-  zeroSearchBackButton: document.getElementById("zero-search-back-button"),
   zeroSearchSkipButton: document.getElementById("zero-search-skip-button"),
 };
 
@@ -80,9 +80,6 @@ function bindEvents() {
   });
   els.deckStack.addEventListener("click", (event) => {
     if (isZeroSearchBlocking()) return;
-    if (state.drawPile.length === 0 && state.hand.length === 0 && state.field.length === 0) {
-      if (!loadDeckToPlay(true, 8)) return;
-    }
     drawCards(event.shiftKey ? 5 : 1);
   });
   els.deckStack.addEventListener("contextmenu", (event) => {
@@ -156,23 +153,19 @@ function bindEvents() {
     state.lifeOpponent = 30;
     renderPlay();
   });
-  els.zeroSearchStartButton.addEventListener("click", () => {
-    state.zeroSearchPhase = "select";
-    state.zeroSearchOrder = [];
-    renderPlay();
+  els.gameStartButton.addEventListener("click", () => {
+    startGameWithZeroSearch();
   });
   els.zeroSearchApplyButton.addEventListener("click", () => {
     applyZeroSearch();
-  });
-  els.zeroSearchBackButton.addEventListener("click", () => {
-    state.zeroSearchPhase = "intro";
-    state.zeroSearchOrder = [];
-    renderPlay();
   });
   els.zeroSearchSkipButton.addEventListener("click", () => {
     state.zeroSearchPhase = "done";
     state.zeroSearchOrder = [];
     renderPlay();
+  });
+  els.gameResetButton.addEventListener("click", () => {
+    resetToGameStartScreen();
   });
 }
 
@@ -183,7 +176,7 @@ function clearHandDragState() {
 }
 
 function isZeroSearchBlocking() {
-  return state.zeroSearchPhase === "intro" || state.zeroSearchPhase === "select";
+  return state.zeroSearchPhase === "start" || state.zeroSearchPhase === "choose";
 }
 
 function getFieldCardSize() {
@@ -197,7 +190,10 @@ function switchTab(tab) {
   els.tabDeck.classList.toggle("is-active", tab === "deck");
   els.tabPlay.classList.toggle("is-active", tab === "play");
   if (tab === "play" && state.drawPile.length === 0 && state.hand.length === 0 && state.field.length === 0) {
-    loadDeckToPlay(true, 8);
+    if (state.deckBuild.length > 0) {
+      state.zeroSearchPhase = "start";
+      renderPlay();
+    }
   }
 }
 
@@ -270,7 +266,7 @@ async function applyDeckCode(code) {
       alert("このコードのカードを確認できませんでした。");
       return;
     }
-    loadDeckToPlay(true, 8);
+    resetToGameStartScreen();
     alert("デッキコードを適用しました。");
   } catch {
     alert("無効なデッキコードです。");
@@ -291,7 +287,7 @@ function replaceDeckWithMap(map) {
   return true;
 }
 
-function loadDeckToPlay(silent = false, openingHand = 0) {
+function loadDeckToPlay(silent = false, openingHand = 0, phaseAfterDraw = "done") {
   if (state.deckBuild.length === 0) {
     if (!silent) alert("デッキがありません。まず共有コードを適用してください。");
     return false;
@@ -315,11 +311,31 @@ function loadDeckToPlay(silent = false, openingHand = 0) {
   state.selectedHandId = null;
   state.lifeSelf = 30;
   state.lifeOpponent = 30;
-  state.zeroSearchPhase = "intro";
+  state.zeroSearchPhase = phaseAfterDraw;
   state.zeroSearchOrder = [];
-  if (openingHand > 0) drawCards(openingHand);
+  if (openingHand > 0) {
+    for (let i = 0; i < openingHand; i += 1) {
+      if (state.drawPile.length === 0) break;
+      state.hand.push(state.drawPile.pop());
+    }
+  }
   renderPlay();
   return true;
+}
+
+function startGameWithZeroSearch() {
+  loadDeckToPlay(true, 8, "choose");
+}
+
+function resetToGameStartScreen() {
+  state.drawPile = [];
+  state.hand = [];
+  state.field = [];
+  state.zeroSearchOrder = [];
+  state.zeroSearchPhase = state.deckBuild.length > 0 ? "start" : "idle";
+  state.lifeSelf = 30;
+  state.lifeOpponent = 30;
+  renderPlay();
 }
 
 function drawCards(count) {
@@ -429,20 +445,19 @@ function renderZeroSearchModal() {
   els.zeroSearchModal.setAttribute("aria-hidden", open ? "false" : "true");
   if (!open) return;
 
-  if (state.zeroSearchPhase === "intro") {
-    els.zeroSearchTitle.textContent = "零探し";
-    els.zeroSearchDescription.textContent = "任意枚数の手札を山札の一番下に置き、同じ枚数を1回だけ引けます。";
+  if (state.zeroSearchPhase === "start") {
+    els.zeroSearchTitle.textContent = "ゲーム開始";
+    els.zeroSearchDescription.textContent = "開始すると初手8枚を引いたあと、零探しを行えます。";
     els.zeroSearchCards.innerHTML = "";
-    els.zeroSearchSelected.textContent = "最初の手札を確認して、必要なら零探しを行ってください。";
-    els.zeroSearchStartButton.style.display = "";
-    els.zeroSearchSkipButton.style.display = "";
+    els.zeroSearchSelected.textContent = "";
+    els.gameStartButton.style.display = "";
+    els.zeroSearchSkipButton.style.display = "none";
     els.zeroSearchApplyButton.style.display = "none";
-    els.zeroSearchBackButton.style.display = "none";
     return;
   }
 
-  els.zeroSearchTitle.textContent = "零探し - 入れ替える札を選択";
-  els.zeroSearchDescription.textContent = "クリック順が山札下に置く順番になります。";
+  els.zeroSearchTitle.textContent = "零探し";
+  els.zeroSearchDescription.textContent = "任意枚数を選択し、クリック順で山札の下へ置いて同枚数を引き直します。";
   els.zeroSearchCards.innerHTML = "";
   const orderMap = new Map(state.zeroSearchOrder.map((uid, idx) => [uid, idx + 1]));
   state.hand.forEach((card) => {
@@ -467,10 +482,9 @@ function renderZeroSearchModal() {
     els.zeroSearchCards.appendChild(button);
   });
   els.zeroSearchSelected.textContent = `選択中: ${state.zeroSearchOrder.length} 枚`;
-  els.zeroSearchStartButton.style.display = "none";
+  els.gameStartButton.style.display = "none";
   els.zeroSearchSkipButton.style.display = "";
   els.zeroSearchApplyButton.style.display = "";
-  els.zeroSearchBackButton.style.display = "";
 }
 
 function applyZeroSearch() {
