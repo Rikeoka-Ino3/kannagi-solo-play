@@ -1147,16 +1147,19 @@ button.is-active {
     aspect-ratio: 3 / 2;
     background-size: 100% auto;
     background-position: center bottom;
-    margin-top: 22px;
+    margin-top: 0;
     margin-bottom: 2px;
-    align-self: end;
+    align-self: auto;
+    flex: 0 0 auto;
   }
 
   .simple-playmat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0;
     height: calc(100svh - 62px);
     min-height: 0;
-    grid-template-rows: minmax(0, 1fr) auto;
-    align-content: stretch;
     padding-top: 8px;
   }
 
@@ -1164,11 +1167,17 @@ button.is-active {
     justify-content: flex-start;
     overflow-x: auto;
     overflow-y: visible;
-    margin-top: 8px;
+    margin-top: 0;
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: max(0px, env(safe-area-inset-bottom));
     scrollbar-width: thin;
+    flex: 0 0 auto;
+  }
+
+  .hand-overlay {
+    margin-top: 0;
+    padding-top: 0;
   }
 
   .play-floating-ui {
