@@ -46,12 +46,21 @@
       <section id="tab-play" class="tab-panel">
         <div class="playmat simple-playmat">
           <div class="play-floating-ui">
-            <div class="life-counter">
-              <span>ライフ</span>
-              <button id="life-minus-button" type="button">-</button>
-              <strong id="life-value">30</strong>
-              <button id="life-plus-button" type="button">+</button>
-              <button id="life-reset-button" type="button">リセット</button>
+            <div class="life-counter-group">
+              <div class="life-counter">
+                <span>自分</span>
+                <button id="life-self-minus-button" type="button">-</button>
+                <strong id="life-self-value">30</strong>
+                <button id="life-self-plus-button" type="button">+</button>
+                <button id="life-self-reset-button" type="button">リセット</button>
+              </div>
+              <div class="life-counter">
+                <span>相手</span>
+                <button id="life-opponent-minus-button" type="button">-</button>
+                <strong id="life-opponent-value">30</strong>
+                <button id="life-opponent-plus-button" type="button">+</button>
+                <button id="life-opponent-reset-button" type="button">リセット</button>
+              </div>
             </div>
           </div>
           <div id="field-zone" class="field-zone">

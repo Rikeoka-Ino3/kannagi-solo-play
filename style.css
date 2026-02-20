@@ -48,9 +48,9 @@
 /* iPhone帯 */
 @media (max-width: 480px) {
   :root {
-    --field-card-width: 96px;
-    --hand-card-width: 74px;
-    --hand-overlap: -22px;
+    --field-card-width: 90px;
+    --hand-card-width: 62px;
+    --hand-overlap: -18px;
     --deck-zone-width: 118px;
     --deck-width: 82px;
     --deck-height: 116px;
@@ -73,7 +73,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: #0f0f14;
   color: var(--text);
-  min-height: 100dvh;
+  min-height: 100svh;
+  height: 100svh;
   position: relative;
   isolation: isolate;
   display: flex;
@@ -159,6 +160,10 @@ body::after {
 
 #tab-play.is-active {
   display: flex;
+}
+
+#tab-deck.is-active {
+  overflow: auto;
 }
 
 .builder-layout {
@@ -595,12 +600,21 @@ button.is-active {
   position: relative;
 }
 
+.simple-playmat.is-zero-search-active {
+  grid-template-rows: minmax(0, 1fr);
+}
+
 .play-floating-ui {
   position: absolute;
   top: 10px;
   right: 10px;
   z-index: 20;
   pointer-events: none;
+}
+
+.life-counter-group {
+  display: grid;
+  gap: 6px;
 }
 
 .life-counter {
@@ -664,6 +678,10 @@ button.is-active {
   justify-content: center;
   gap: 0;
   overflow: visible;
+}
+
+.hand-zone.is-hidden-for-zero-search {
+  display: none !important;
 }
 
 .hand-zone.is-drop-target {
@@ -833,7 +851,7 @@ button.is-active {
   display: none;
   align-items: center;
   justify-content: center;
-  background: rgba(2, 6, 23, 0.78);
+  background: rgba(2, 6, 23, 0.9);
   backdrop-filter: blur(3px);
 }
 
@@ -996,6 +1014,33 @@ button.is-active {
     grid-template-columns: 1fr;
   }
 
+  #tab-deck.is-active {
+    overflow: auto;
+  }
+
+  .builder-content {
+    padding: 10px;
+    overflow: visible;
+  }
+
+  .box {
+    display: block;
+    min-height: unset;
+  }
+
+  .deck-import:last-child {
+    display: block;
+    min-height: unset;
+  }
+
+  .deck-list {
+    max-height: none;
+    overflow: visible;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    padding-right: 0;
+  }
+
   .deck-builder-grid {
     grid-template-columns: 1fr;
   }
@@ -1024,6 +1069,10 @@ button.is-active {
   .life-counter {
     gap: 6px;
     padding: 5px 8px;
+  }
+
+  .life-counter-group {
+    gap: 4px;
   }
 
   .life-counter strong {
@@ -1064,5 +1113,38 @@ button.is-active {
     --field-card-width: 116px;
     --hand-card-width: 88px;
     --hand-overlap: -26px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-main {
+    padding: 6px 8px 8px;
+  }
+
+  .app-header {
+    padding: 6px 8px 4px;
+  }
+
+  .view-select-wrap {
+    min-width: 126px;
+  }
+
+  .deck-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .field-zone {
+    background-size: contain;
+    background-position: center center;
+  }
+
+  .hand-zone {
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: visible;
+    padding-left: 8px;
+    padding-right: 8px;
+    scrollbar-width: thin;
   }
 }

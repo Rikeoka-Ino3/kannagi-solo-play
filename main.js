@@ -13,7 +13,8 @@ const state = {
   hand: [],
   field: [],
   selectedHandId: null,
-  life: 30,
+  lifeSelf: 30,
+  lifeOpponent: 30,
   zeroSearchPhase: "idle", // idle | intro | select | done
   zeroSearchOrder: [],
 };
@@ -22,6 +23,7 @@ const els = {
   viewSelect: document.getElementById("view-select"),
   tabDeck: document.getElementById("tab-deck"),
   tabPlay: document.getElementById("tab-play"),
+  playmat: document.querySelector(".simple-playmat"),
   deckList: document.getElementById("deck-list"),
   deckTotal: document.getElementById("deck-total"),
   clearDeckButton: document.getElementById("clear-deck-button"),
@@ -38,10 +40,14 @@ const els = {
   cardPreviewNumber: document.getElementById("card-preview-number"),
   cardPreviewName: document.getElementById("card-preview-name"),
   cardPreviewType: document.getElementById("card-preview-type"),
-  lifeValue: document.getElementById("life-value"),
-  lifeMinusButton: document.getElementById("life-minus-button"),
-  lifePlusButton: document.getElementById("life-plus-button"),
-  lifeResetButton: document.getElementById("life-reset-button"),
+  lifeSelfValue: document.getElementById("life-self-value"),
+  lifeSelfMinusButton: document.getElementById("life-self-minus-button"),
+  lifeSelfPlusButton: document.getElementById("life-self-plus-button"),
+  lifeSelfResetButton: document.getElementById("life-self-reset-button"),
+  lifeOpponentValue: document.getElementById("life-opponent-value"),
+  lifeOpponentMinusButton: document.getElementById("life-opponent-minus-button"),
+  lifeOpponentPlusButton: document.getElementById("life-opponent-plus-button"),
+  lifeOpponentResetButton: document.getElementById("life-opponent-reset-button"),
   zeroSearchModal: document.getElementById("zero-search-modal"),
   zeroSearchTitle: document.getElementById("zero-search-title"),
   zeroSearchDescription: document.getElementById("zero-search-description"),
@@ -126,16 +132,28 @@ function bindEvents() {
     if (event.key === "Escape" && !els.cardPreviewModal.classList.contains("is-open")) return;
     if (event.key === "Escape") closeCardPreview();
   });
-  els.lifeMinusButton.addEventListener("click", () => {
-    state.life = Math.max(0, state.life - 1);
+  els.lifeSelfMinusButton.addEventListener("click", () => {
+    state.lifeSelf = Math.max(0, state.lifeSelf - 1);
     renderPlay();
   });
-  els.lifePlusButton.addEventListener("click", () => {
-    state.life = Math.min(99, state.life + 1);
+  els.lifeSelfPlusButton.addEventListener("click", () => {
+    state.lifeSelf = Math.min(99, state.lifeSelf + 1);
     renderPlay();
   });
-  els.lifeResetButton.addEventListener("click", () => {
-    state.life = 30;
+  els.lifeSelfResetButton.addEventListener("click", () => {
+    state.lifeSelf = 30;
+    renderPlay();
+  });
+  els.lifeOpponentMinusButton.addEventListener("click", () => {
+    state.lifeOpponent = Math.max(0, state.lifeOpponent - 1);
+    renderPlay();
+  });
+  els.lifeOpponentPlusButton.addEventListener("click", () => {
+    state.lifeOpponent = Math.min(99, state.lifeOpponent + 1);
+    renderPlay();
+  });
+  els.lifeOpponentResetButton.addEventListener("click", () => {
+    state.lifeOpponent = 30;
     renderPlay();
   });
   els.zeroSearchStartButton.addEventListener("click", () => {
@@ -295,7 +313,8 @@ function loadDeckToPlay(silent = false, openingHand = 0) {
   state.hand = [];
   state.field = [];
   state.selectedHandId = null;
-  state.life = 30;
+  state.lifeSelf = 30;
+  state.lifeOpponent = 30;
   state.zeroSearchPhase = "intro";
   state.zeroSearchOrder = [];
   if (openingHand > 0) drawCards(openingHand);
@@ -339,33 +358,39 @@ function moveHandCardToField(uid, preferredPos = null) {
 function renderPlay() {
   els.drawPileCount.textContent = String(state.drawPile.length);
   els.deckStack.classList.toggle("is-empty", state.drawPile.length === 0);
-  els.lifeValue.textContent = String(state.life);
+  els.lifeSelfValue.textContent = String(state.lifeSelf);
+  els.lifeOpponentValue.textContent = String(state.lifeOpponent);
+  const zeroSearchBlocking = isZeroSearchBlocking();
+  els.playmat.classList.toggle("is-zero-search-active", zeroSearchBlocking);
+  els.handZone.classList.toggle("is-hidden-for-zero-search", zeroSearchBlocking);
   els.handZone.innerHTML = "";
   const deckZone = document.getElementById("deck-zone");
   els.fieldZone.innerHTML = "";
   if (deckZone) els.fieldZone.appendChild(deckZone);
 
-  state.hand.forEach((card, i) => {
-    const node = document.createElement("div");
-    node.className = "hand-card";
-    node.dataset.uid = card.uid;
-    node.draggable = true;
-    node.style.zIndex = String(100 + i);
+  if (!zeroSearchBlocking) {
+    state.hand.forEach((card, i) => {
+      const node = document.createElement("div");
+      node.className = "hand-card";
+      node.dataset.uid = card.uid;
+      node.draggable = true;
+      node.style.zIndex = String(100 + i);
 
-    const img = document.createElement("img");
-    img.className = "hand-card-image";
-    img.src = card.image || CARD_BACK_IMAGE;
-    img.alt = card.name || `No.${card.number}`;
-    img.loading = "lazy";
-    img.addEventListener("error", () => {
-      img.src = CARD_BACK_IMAGE;
+      const img = document.createElement("img");
+      img.className = "hand-card-image";
+      img.src = card.image || CARD_BACK_IMAGE;
+      img.alt = card.name || `No.${card.number}`;
+      img.loading = "lazy";
+      img.addEventListener("error", () => {
+        img.src = CARD_BACK_IMAGE;
+      });
+      node.appendChild(img);
+
+      attachHandCardInteractions(node, card);
+      attachHandCardDragEvents(node, card);
+      els.handZone.appendChild(node);
     });
-    node.appendChild(img);
-
-    attachHandCardInteractions(node, card);
-    attachHandCardDragEvents(node, card);
-    els.handZone.appendChild(node);
-  });
+  }
 
   state.field.forEach((card) => {
     const node = document.createElement("div");
